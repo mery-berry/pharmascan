@@ -1,0 +1,27 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "pharmascan-2025",
+          "appId": "1:819176537141:android:a06d44b0b90f358d53857c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "pharmascan-2025",
+          "configurations": {
+            "android": "1:819176537141:android:a06d44b0b90f358d53857c",
+            "ios": "1:819176537141:ios:7e93b6b636cba58853857c",
+            "macos": "1:819176537141:ios:7e93b6b636cba58853857c",
+            "web": "1:819176537141:web:284bb236132ecc0b53857c"
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
